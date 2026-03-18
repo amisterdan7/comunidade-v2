@@ -1,0 +1,118 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.texto-comum, .titulo-site, .subtitulo{
+    
+ 
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho-principal{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    border-bottom: 2px solid #e9ecef;
+    background-image: linear-gradient(rgb(119, 186, 238), white);
+}
+
+.menu-navegacao {
+    display: flex;
+    gap: 15px; 
+}
+
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column; /* Coloca os campos um embaixo do outro */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.campo-entrada {
+    width: 40%;
+    align-self: flex-start;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.rotulo-campo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.botao-enviar {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 20px; 
+    font-size: 14px; 
+    border: none;
+    border-radius: 5px;
+    cursor: default;
+    transition: background-color 0.3s ease; 
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.botao-enviar:hover {
+    background-color: #218838;
+}
+
+
+.rodape-site {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;;
+    background-color: rgb(119, 186, 238);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.link-menu {
+
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;  
+}
+
+.container-layout {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 10px auto; 
+}
+.conteudo-principal {
+    flex: 3;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.barra-lateral {
+    flex: 1;
+    background-color: #efebe9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.link-menu {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.link-menu:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
